@@ -12,20 +12,20 @@ import Signup from "./Signup";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-byte-blog">
       <div className="App">
         <Navbar />
 
         <BlogData>
           <Routes>
-            <Route path="/react-byte-blog" element={<BlogList />} />
-            <Route path="/react-byte-blog/blogs/:id" element={<BlogDetails />} />
-            <Route path="/react-byte-blog/authors/:authorlink" element={<AuthorDetails />} />
-            <Route path="/react-byte-blog/authors" element={<Authors />} />
-            <Route path="/react-byte-blog/create" element={<Create />} />
-            <Route path="/react-byte-blog/login" element={<Login />} />
-            <Route path="/react-byte-blog/signup" element={<Signup />} />
-            <Route path="/react-byte-blog/*" element={<NotFound />} />
+            <Route path="/" element={<BlogList />} />
+            <Route path="/blogs/:id" element={<BlogDetails />} />
+            <Route path="/authors/:authorlink" element={<AuthorDetails />} />
+            <Route path="/authors" element={<Authors />} />
+            <Route path="/create" element={<Create />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/*" element={<NotFound />} />
           </Routes>
         </BlogData>
       </div>
