@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-byte-blog/static/css/main.c1e704d1.css",
-    "main.js": "/react-byte-blog/static/js/main.27b8a3a2.js",
+    "main.js": "/react-byte-blog/static/js/main.978dc81f.js",
     "static/js/453.2d79e0e5.chunk.js": "/react-byte-blog/static/js/453.2d79e0e5.chunk.js",
     "static/media/notfound.gif": "/react-byte-blog/static/media/notfound.57ded3e530990ab2fd79.gif",
     "static/media/welcome.jpg": "/react-byte-blog/static/media/welcome.c89d47c131c74b52b09b.jpg",
@@ -13,11 +13,11 @@
     "index.html": "/react-byte-blog/index.html",
     "static/media/fail.svg": "/react-byte-blog/static/media/fail.627b9a2ead4ef2efa0c533c5bf2c2e2b.svg",
     "main.c1e704d1.css.map": "/react-byte-blog/static/css/main.c1e704d1.css.map",
-    "main.27b8a3a2.js.map": "/react-byte-blog/static/js/main.27b8a3a2.js.map",
+    "main.978dc81f.js.map": "/react-byte-blog/static/js/main.978dc81f.js.map",
     "453.2d79e0e5.chunk.js.map": "/react-byte-blog/static/js/453.2d79e0e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1e704d1.css",
-    "static/js/main.27b8a3a2.js"
+    "static/js/main.978dc81f.js"
   ]
 }
